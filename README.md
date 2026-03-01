@@ -1,26 +1,12 @@
-# Secret Rotator
+# Secret Rotation
 
-[![ES](https://img.shields.io/badge/ES-Español-red)](README.es.md)
+secret-rotation skill for OpenClaw.
 
-## What It Solves
-Automate secret rotation and management.
-
-## When It Activates
-- user mentions secrets, credentials, rotation, vault
+## What It Does
+Automates secret rotation and management using HashiCorp Vault, AWS Secrets Manager.
 
 ## Usage
 /secret-rotation
-
-## Examples
-Rotate API keys, update database passwords, refresh tokens
-
-## Prerequisites
-- OpenClaw agent
-- Access to security tools
-
-## Limitations
-- Requires security context
-- May need additional configuration
 
 ## License
 MIT
