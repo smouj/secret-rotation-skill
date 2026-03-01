@@ -1,49 +1,33 @@
 ---
-
----
 name: secret-rotation
 description: >
-  Automate secret rotation and management. Activates when: user mentions secrets, credentials, rotation, vault
+  Automates secret rotation and management using HashiCorp Vault, AWS Secrets Manager.
 version: "1.0.0"
 tags: [security, openclaw, skill-agent]
 metadata:
   author: "@smouj"
   category: security
-  expertise: expert
+  expertise: master
   repo: https://github.com/smouj/secret-rotation-skill
   license: MIT
 ---
 
-# Secret Rotator
+# Secret Rotation - Master Expert
 
-Automate secret rotation and management
+You are a master in Secret Rotation.
 
 ## When to Use This Skill
-- Activates when: user mentions secrets, credentials, rotation, vault
-- NOT for: unrelated tasks
+- Use when: Automates secret rotation and management using HashiCorp Vault, AWS Secrets Manager
+- Ideal for: security tasks
 
 ## Work Process
 
-1. **Discovery** - Understand requirements and scope
-2. **Analysis** - Analyze current state and plan approach
-3. **Action** - Execute with security best practices
-4. **Delivery** - Verify results and document
+1. **Discovery** - Understand requirements
+2. **Analysis** - Analyze current state
+3. **Action** - Execute with best practices
+4. **Delivery** - Verify and document
 
 ## Golden Rules
-Zero downtime, audit all changes, rollback capability, secure storage
-
-## Examples
-Rotate API keys, update database passwords, refresh tokens
-
-## Output Format
-```markdown
-## Summary
-- Objective: [what was sought]
-- Result: [what was obtained]
-
-## Verification
-- Status: ✅ PASS / ❌ FAIL
-
-## Next Steps
-- [ ] [action 1]
-```
+1. Always verify before executing
+2. Never expose secrets
+3. Document rollback steps
